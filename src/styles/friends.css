@@ -1,0 +1,36 @@
+.friends-container button{
+    color:white;
+}
+
+.friends-left{
+    position: fixed;
+    left:0;
+    height:92vh;
+    top:65px;
+    width:360px !important;
+    background-color: #242526;
+}
+
+.friends-left button{
+    background-color: #242526;
+}
+
+.friends-right{
+    margin-left:370px;
+    margin-right:10px;
+    width:100% !important;
+    background-color: #18191A;
+}
+
+.friends-right button{
+    background-color: #242526;
+}
+
+
+
+
+@media (max-width:776px){
+    .friends-right{
+        display:none;
+    }
+}

@@ -1,0 +1,69 @@
+.gaming-container button{
+    color:white;
+}
+
+.gaming-left{
+    position: fixed;
+    left:0;
+    height:92vh;
+    top:65px;
+    width:360px !important;
+    background-color: #242526;
+}
+
+.gaming-left button{
+    background-color: #242526;
+}
+
+.gaming-right-container{
+    display: flex;
+    justify-content: center;
+    margin-left:370px !important;
+    width:calc(100% - 370px) !important;
+}
+
+.gaming-right{
+    margin-right:10px;
+    background-color: #18191A;
+    width:100%;
+    max-width: 1500px !important;
+}
+
+.gaming-right button{
+    background-color: #242526;
+}
+
+.games-container1, .games-container2, .games-container3, .games-container4, .games-container5{
+    margin-left:0 !important;
+    display:flex !important;
+    flex-wrap:nowrap !important;
+    gap:3px !important;
+    overflow:hidden !important;
+    white-space: nowrap !important;
+}
+
+.game-element{
+    width:1500px !important;
+    max-width:"290px";
+}
+
+.tournament-title{
+    max-width: 200px !important;
+    overflow-wrap:break-word !important;
+    overflow: "hidden";
+}
+
+
+@media (max-width:900px){
+    .gaming-left{
+        display:none;
+    }
+    .gaming-right-container{
+        width:100%;
+        margin:0 !important;
+    }
+    .gaming-right{
+        width:100% ;
+        margin:0;
+    }
+} 

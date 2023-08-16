@@ -1,0 +1,14 @@
+.App{
+    background-color:#18191A ;
+    height:100vh;
+    color:white;
+    margin:0;
+}
+
+.displayNone{
+    display:none !important;
+}
+
+.market{
+    overflow-x: hidden !important;
+}

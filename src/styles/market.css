@@ -1,0 +1,53 @@
+.market-container button{
+    color:white;
+}
+
+.market-left{
+    position: fixed;
+    overflow-y: auto;
+    left:0;
+    height:92vh;
+    top:65px;
+    width:360px !important;
+    background-color: #242526;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: lightgray;
+    border-radius: 20px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 20px;
+}
+
+
+.market-left button{
+    background-color: #242526;
+}
+
+.market-right{
+    margin-left:370px;
+    margin-right:10px;
+    width:100% !important;
+    background-color: #18191A;
+}
+
+.market-right button{
+    background-color: #242526;
+}
+
+
+@media (max-width:776px){
+    .market-left{
+        display:none;
+    }
+    .market-right{
+        margin:0 !important;
+    }
+}

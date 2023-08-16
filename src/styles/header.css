@@ -1,0 +1,155 @@
+html,body{
+    margin:0;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: column;
+    width:350px
+}
+
+.header-middle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+}
+
+.header-middle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-middle-tabs{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    width:60% !important;
+}
+
+.header-middle-item{
+    width:100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.active{
+    color:#2374E1 !important;
+}
+
+.header-right-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A3B3C;
+    border-radius:50%;
+    width:40px;
+    height: 40px;
+    margin-right: -5px !important;
+
+}
+
+.nav-item{
+    width:75px !important;
+}
+
+.toggler-button{
+    display:none;
+    padding:10px;
+    background-color: #242526;
+    border:none;    
+}
+
+.toggled-menu{
+    position: absolute;
+    top:80px;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #18191A;
+    z-index: 99;
+}
+
+.toggled-menu button{
+    color:white;
+}
+
+.toggled-menu-see-more{
+    height: 130vh !important;
+}
+
+.toggled-menu-container{
+    display:none;
+}
+
+.toggled-container{
+    display:flex;
+    flex-direction: column; 
+}
+
+.shortcuts-title{
+    color:gray;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+.button1{
+    background-color: #18191A;
+    border:none;
+    text-align: left;
+    width:100%;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    background-color: #303031;
+}
+
+.button2{
+    background-color: #18191A;
+    border:none;
+    color:gray;
+    font-size: 15px;
+}
+
+@media (max-width:813px){
+    .header-middle-container{
+        display:none
+    }
+    .search-form{
+        width:25%
+    }
+    .toggler-button{
+        display:block;
+    }
+    .toggled-menu-container{
+        display:block;
+    }
+    .header-right-item{
+        margin-right: -10px !important;
+    }
+}
+
+@media (max-width:1000px){
+    .header-middle-tabs{
+        width:100% !important;
+    }
+    .nav-item{
+        width: 50% !important;
+    }
+    .header-right-item{
+        margin-right: -10px !important;
+    }
+}
+
+@media (max-width:580px){
+    .button2{
+        font-size: 12px;
+    }
+}
