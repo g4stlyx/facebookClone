@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Facebook - 404</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      // Credits: Copyright (c) 2016 Rafael Pedicini - MIT License
+
+      // Adjust the segmentCount based on your deployment setup:
+      // - 0 for root custom domain (like yours: facebook.g4stly.tr)
+      // - 1 for project pages (e.g., username.github.io/repo-name/)
+      var segmentCount = 0;
+
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + segmentCount)
+            .join("/") +
+          "/?p=/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(segmentCount)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&q=" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
+      );
+    </script>
+  </head>
+  <body>
+    <!-- Optional: You can add a loading indicator or message here -->
+    <div style="align-items: center; align-self: center; display: flex; height: 100vh; justify-content: center; text-align: center;">
+      Oops! It seems like the page you are looking for does not exist. Please
+      check the URL or return to the homepage.
+    </div>
+  </body>
+</html>
